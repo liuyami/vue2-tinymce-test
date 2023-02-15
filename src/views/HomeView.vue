@@ -3,6 +3,10 @@
   <div id="app">
     <h1> 请随意刷新测试 </h1>
     <vue-tinymce v-model="content" :setting="setting" />
+    <div class="source-code-link">
+      源码地址：<a href="https://github.com/liuyami/vue2-tinymce-test"
+        target="_blank">https://github.com/liuyami/vue2-tinymce-test</a>
+    </div>
   </div>
 </template>
 
@@ -25,3 +29,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.source-code-link {
+  padding-top: 20px;
+}
+</style>
